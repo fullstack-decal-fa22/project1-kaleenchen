@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name = "author" content="Kaleen Chen"/>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class=navbar>
+        <div class="navbar-element">Home</div>
+        <div class="navbar-element">Work</div>
+        <div class="navbar-element">About</div>
+        <div class="navbar-element">
+            <a href="https://marketplace.canva.com/EAFEQLyOjns/1/0/1131w/canva-black-white-minimalist-cv-resume-kQoDC3H3Em8.jpg" target="_blank">Resume</a>
+        </div>
+    </div>
+
+    <div>
+        <h1 id="name">Kaleen Chen</h1>
+        <p id="title-descrip">product designer studying computer science & design at UC Berkeley </p>
+        <button>
+            <a href="mailto:kaleenchen@berkeley.edu" class = contact-me>Contact Me</a>
+        </button>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class=" about-me-container">
+        <h2> About Me</h2>
+        <div class="description">
+            <p id="about-me-info">I’m Kaleen Chen, a sophomore at UC Berkeley studying computer science, design innovation, & entrepunership. I'm from Alameda, California. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+        </div>
+    </div>
+
+    <div class = "project-container">
+        <div class="projects">
+            <img src="IMG_2709.JPG" alt = "hi-fidelty mockup of telehealth web application" />
+            <h3 class="role">Project Lead @ Assistive Technology Development </h3>
+            <p>Reimagining telehelath expereinces for clinicans and patients </p>
+            <h5>UI/UX Design // Web Design // Brand Design //UX Research </h5>
+        </div>
+
+        <div class="projects">
+            <img src="IMG_8501.jpg" alt = "q-cubed logo" />
+            <h2 class="role">Brand & Content Designer @ Q-Cubed </h2>
+            <p>Empowering LGBTQ+ innovators to transform tech culture</p>
+            <h5>Content Design // Logo Design //UX Research </h5>
+        </div>
+
+
+        <div class="projects">
+            <img src="0P7A3543.jpg" alt = "hi-fidelty prototype of mobile app" />
+            <h2 class="role">Product & Marketing Designer @ Microsoft GroupMe Design Sprint</h2>
+            <p>Optomizing user retention & adoption to close product gaps </p>
+            <h5>Interaction Design // User Research // Product Strategy </h5>
+        </div>
+    </div>
+
+    <div class = "bottom-bar">
+        <h3 id="message">Let's create impact together！</h3>
+        <form class = message-form>
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+            <label for="message">Send a Message:</label>
+            <input type="text" name="message">
+            <input type = "submit" value="Submit" class = "submit-button"> 
+            
+        </form>
+        <div class="contact-bar">
+            <p class=" contact-item">
+                <a href="mailto:kaleenchen@berkeley.edu">kaleenchen@berkeley.edu</a>
+            </p>
+
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("submit-button").addEventListener("click", function (event) {
+            alert("Thank you for reaching out!");
+        });
+    
+    </script>
+
+</body>
+</html>
+
